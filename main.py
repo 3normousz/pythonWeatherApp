@@ -37,7 +37,7 @@ class App:
         self.app.configure(bg=SEABLUE)
 
         self.user_input = tk.StringVar()
-        self.api_key = 'f6edca1489c4f3a6aeef348cceb30dfe'
+        self.api_key = '//PUT YOUR API KEY//'
 
         self.city_input = tk.Entry(self.app, textvariable=self.user_input, font=LARGE_FONT)
         self.city_input.insert(0, 'Enter a city name')
